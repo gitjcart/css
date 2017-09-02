@@ -1,0 +1,97 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 2em;
+  background-color: whitesmoke;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2	{
+	font-size: 1em;
+}
+div{
+	display: inline-block;
+}
+.skillset {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skill-html {
+  background-color: #E55126;
+}
+.skill-js {
+  background-color: #E5A227;
+}
+.skill-jquery {
+  background-color: #0C73B8;
+}
+.skill-html,
+.skill-js,
+.skill-jquery {
+  width: 100%;
+  padding: 1em 3em 2em 2em;
+  margin: 0.5em;
+  color: whitesmoke;
+}
+.projects-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.projects {
+  margin: 1em 0;
+}
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+.subq{
+	margin: 1em;
+	padding: 1em;
+	display: inline-block;
+}
+.hope{
+	text-align: right;
+	padding: 1em;
+	margin: 1em;
+}
+.third{
+	margin: 1em;
+	padding: 1em;
+	font-size: 1.2em;
+	text-align: center;
+}
+.fourth{
+	margin: 1em;
+	padding: 1em;
+	font-size: 1.1em;
+	text-align: right;
+}
+.now{
+	padding: .5em;
+	margin: .5em
+}
+.and{
+	padding: .5em
+	margin: .5em;
+}
+.main{
+	display: inherit;
+}
+.sizing{
+	margin-left: auto;
+	margin-right: auto;
+}
